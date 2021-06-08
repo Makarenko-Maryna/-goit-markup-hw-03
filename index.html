@@ -14,30 +14,30 @@
 <body>
     <header class="header">
         <div class="conteiner">
-            <nav>
-                <a href=""><span class="span">Web</span>Studio</a>
-                <ul>
+            <nav class="nav">
+                <a href="" class="logo-link"><span class="span">Web</span>Studio</a>
+                <ul class="nav-header">
                     <li class="navList"><a href="./index.html" class="activPage">Студия</a></li>
                     <li class="navList"><a href="./portfolio.html">Портфолио</a></li>
                     <li class="navList"><a href="">Контакты</a></li>
                 </ul>
-            </nav>
-                <ul>
+                <ul class="contact-header">
                     <li class="contact"><a href="email:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="contact"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
+            </nav>
         </div>
     </header>
     <main>
         <!--section1-->
         <section class="hero">
             <div class="conteiner" >
-            <h1>Эффективные решения для вашего бизнеса</h1>
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="stilyButtom">Заказать услугу</button>
             </div>
         </section>
         <!--section2-->
-        <section>
+        <section class="features-part">
             <div class="conteiner">
             <!--Features-->
                 <h2>Features</h2>
@@ -82,12 +82,12 @@
         <section>
             <div class="conteiner">
             <h2 class="h2-title">Наша команда</h2>
-            <ul>
+            <ul class="our-team">
                 <li>
-                    <img src="image/img1.jpg" alt="logo" width="400">
+                    <img src="image/img1.jpg" alt="logo" width="270">
                     <h3 class="h3-team">Игорь Демьяненко</h3>
                     <p>Product Designer</p>
-                    <ul>
+                    <!-- <ul>
                         <li class="link">
                             <a href=""></a>
                             <img src="image/icons/insta.svg" alt="insta">
@@ -104,13 +104,13 @@
                             <a href=""  class="link"></a>
                             <img src="image/icons/linkedin.svg" alt="in">
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
-                    <img src="image/img2.jpg" alt="logo" width="400">
+                    <img src="image/img2.jpg" alt="logo" width="270">
                     <h3 class="h3-team">Ольга Репина</h3>
                     <p>Frontend Developer</p>
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <a href="" class="link"></a>
                             <img src="image/icons/insta.svg" alt="insta">
@@ -127,13 +127,13 @@
                             <a href="" class="link"></a>
                             <img src="image/icons/linkedin.svg" alt="in">
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
-                   <img src="image/img3.jpg" alt="logo" width="400">
+                   <img src="image/img3.jpg" alt="logo" width="270">
                     <h3 class="h3-team">Николай Тарасов</h3>
                     <p>Marketing</p>
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <a href="" class="link"></a>
                             <img src="image/icons/insta.svg" alt="insta">
@@ -150,13 +150,13 @@
                             <a href=""  class="link"></a>
                             <img src="image/icons/linkedin.svg" alt="in">
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
-                    <img src="image/img4.jpg" alt="logo" width="400">
+                    <img src="image/img4.jpg" alt="logo" width="270">
                     <h3 class="h3-team">Михаил Ермаков</h3>
                     <p>UI Designer</p>
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <a href="" class="link"></a>
                             <img src="image/icons/insta.svg" alt="insta">
@@ -173,7 +173,7 @@
                             <a href="" class="link"></a>
                             <img src="image/icons/linkedin.svg" alt="in">
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
             </ul>
             </div>
@@ -208,39 +208,39 @@
     </main>
     <footer class="footer">
         <div class="conteiner">
-        <ul>
-            <li>
-                <a href="" class="stily-studio"><span class="span">Web</span>Studio </a>
-            </li>
-            <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
-            </li>
-            <li>
-                <a href="email:info@example.com">info@example.com</a>
-            </li>
-            <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-        </ul>
-        <h3>присоединяйтесь</h3>
-        <ul>
-            <li>
-                <a href=""></a>
-                <img src="image/icons/insta.svg" alt="insta">
-            </li>
-            <li>
-                <a href=""></a>
-                <img src="image/icons/twitter.svg" alt="twit">
-            </li>
-            <li>
-                <a href=""></a>
-                <img src="image/icons/facebook.svg" alt="fb">
-            </li>
-            <li>
-                <a href=""></a>
-                <img src="image/icons/linkedin.svg" alt="in">
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <a href="" class="stily-studio"><span class="span">Web</span>Studio </a>
+                </li>
+                <li>
+                    <address>г. Киев, пр-т Леси Украинки, 26</address>
+                </li>
+                <li>
+                    <a href="email:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+            <!-- <h3>присоединяйтесь</h3>
+            <ul>
+                <li>
+                    <a href=""></a>
+                    <img src="image/icons/insta.svg" alt="insta">
+                </li>
+                <li>
+                    <a href=""></a>
+                    <img src="image/icons/twitter.svg" alt="twit">
+                </li>
+                <li>
+                    <a href=""></a>
+                    <img src="image/icons/facebook.svg" alt="fb">
+                </li>
+                <li>
+                    <a href=""></a>
+                    <img src="image/icons/linkedin.svg" alt="in">
+                </li>
+            </ul> -->
         </div>
     </footer>
 </body>

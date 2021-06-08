@@ -26,24 +26,82 @@ body {
 .conteiner {
   width: 1200px;
   margin: 0 auto;
+  padding: 94px;
+}
+
+.header {
+  text-decoration: none;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-link {
+  font-family: Raleway;
+  font-weight: 700;
+  align-items: center;
+  margin-right: 92px;
 }
 
 .span {
   font-family: Raleway;
   color: #2196f3;
 }
-
-.header {
-  text-decoration: none;
+.activPage,
+.link a:focus {
+  color: var(--brendColor--);
+}
+.nav-header {
   display: flex;
+  justify-content: space-between;
+}
+
+.nav-header li {
+  margin: 0px 50px 0 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: inline;
+  padding: 32px 0 29px 0;
+  margin: 0 50 0 50;
+}
+
+.navList a:hover,
+.navList a:focus {
+  color: var(--brendColor--);
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact {
+  display: flex;
+  margin-right: 50px;
 }
+/* header */
 
 .hero {
   background-color: var(--footerColor--);
   color: var(--white--);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 696px;
+  text-align: center;
 }
 
 .stilyButtom {
@@ -52,42 +110,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   margin: 30px;
-}
-/* section2 */
-
-.h3-features {
-  height: 16px;
-  color: var(--titleColor--);
-}
-
-.h2-title {
-  height: 42px;
-  color: var(--titleColor--);
-}
-.h3-team {
-  height: 19px;
-  color: var(--titleColor--);
-  font-weight: 500;
-}
-
-.navList a:hover,
-.navList a:focus {
-  color: var(--brendColor--);
-}
-
-.activPage,
-.link a:focus {
-  color: var(--brendColor--);
-}
-
-.link a:hover {
-  color: var(--titleColor--);
-}
-
-.portfolio-buttom {
-  background-color: var(--sectionColor--);
-  border-radius: 4px;
-  color: var(--titleColor--);
+  box-shadow: 4px 4px rgb(0 0 0 / 15%);
 }
 
 .stilyButtom:hover,
@@ -98,24 +121,106 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+/* section2 */
+
+/* section3 */
+
+ul {
+  list-style-type: none;
+}
+
+.features-part ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.h3-features {
+  height: 16px;
+  color: var(--titleColor--);
+  text-transform: uppercase;
+}
+
+/* section3 */
+
+/* section4 */
+
+.logo-to-do {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2-title {
+  height: 42px;
+  color: var(--titleColor--);
+  text-align: center;
+}
+
+/* section4 */
+
+/* section5 */
+
+.h3-team {
+  height: 19px;
+  color: var(--titleColor--);
+  font-weight: 500;
+  text-align: center;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team p {
+  text-align: center;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link a:hover {
+  color: var(--titleColor--);
+}
+
+/* section5 */
+
+/* portfolio */
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-buttom {
+  background-color: var(--sectionColor--);
+  border-radius: 4px;
+  color: var(--titleColor--);
+  margin-right: 8px;
+  padding: 6px 22px;
+}
 
 .activ-prodject {
   width: 370px;
   height: 404px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  justify-content: flex-start;
+}
+.activ-prodject > .example-of-prodject:not(:last-child) {
+  margin-right: 30px;
 }
 
+.activ-prodject h3 {
+  font-size: 18px;
+  color: var(--titleColor--);
+}
 .activ-prodject li:hover {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* header */
-
-/* main */
-.logo-to-do {
-}
-
-/* main */
+/* portfolio */
 
 /* footer */
 .footer {
