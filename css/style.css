@@ -16,7 +16,7 @@
 }
 body {
   font-family: "Roboto";
-  color: var(--textColor--);
+  /* color: var(--textColor--); */
   list-style: none;
   text-decoration: none;
 }
@@ -55,9 +55,14 @@ section {
   font-family: Raleway;
   color: #2196f3;
 }
-.activPage,
-.link a:focus {
+.activPage:active {
   color: var(--brendColor--);
+}
+
+.link {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: inherit;
 }
 
 .nav {
@@ -80,9 +85,9 @@ section {
 .nav-header a {
   text-decoration: none;
 }
-.nav-header a {
+/* .nav-header a {
   color: var(--titleColor--);
-}
+} */
 
 .contact-header a {
   color: var(--textColor--);
@@ -230,9 +235,9 @@ ul {
   justify-content: space-between;
 }
 
-.link a:hover {
+/* .link a:hover {
   color: var(--titleColor--);
-}
+} */
 
 /* section5 */
 
