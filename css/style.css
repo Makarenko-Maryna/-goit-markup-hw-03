@@ -176,15 +176,16 @@ ul {
 
 .features-list p {
   font-size: 14px;
-  margin-top: 10px;
+  color: var(--textColor--);
+  line-height: 24px;
 }
 
 .h3-features {
-  height: 14px;
   color: var(--titleColor--);
   text-transform: uppercase;
   margin-bottom: 10px;
   width: 270px;
+  font-size: 14px;
 }
 
 /* section3 */
@@ -202,6 +203,7 @@ ul {
 
 .h2-title {
   height: 42px;
+  font-size: 36px;
   color: var(--titleColor--);
   text-align: center;
   margin-bottom: 40px;
@@ -210,14 +212,20 @@ ul {
 /* section4 */
 
 /* section5 */
-
+.team {
+  background-color: var(--sectionColor--);
+  padding: 94 auto;
+}
 .h3-team {
   height: 19px;
   color: var(--titleColor--);
   font-weight: 500;
   text-align: center;
+  margin: 30px 0 10px 0;
 }
-
+.team-list {
+  background-color: var(--white--);
+}
 .our-team {
   display: flex;
   justify-content: space-between;
@@ -225,6 +233,8 @@ ul {
 
 .our-team p {
   text-align: center;
+  color: var(--textColor--);
+  margin-bottom: 30px;
 }
 
 /* .our-team li:not(:last-child) {
@@ -247,7 +257,6 @@ ul {
 }
 
 .button {
-  margin-left: 280px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -264,7 +273,6 @@ ul {
 }
 
 .activ-prodject {
-  border: 1px solid #eeeeee;
   margin-top: calc(-1 * var(--white--));
   margin-left: calc(-1 * var(--white--));
   display: flex;
@@ -278,6 +286,7 @@ ul {
 .example-of-prodject {
   margin-top: 30px;
   margin-left: auto;
+  border: 1px solid #eeeeee;
 }
 
 .activ-prodject h3 {
@@ -308,11 +317,16 @@ ul {
   text-decoration: none;
 }
 .footer address {
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
 }
-
+/* 
 .footer a {
+
+} */
+.contact-footer a {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  /* padding-top: 9px; */
   text-decoration: none;
 }
-
 /* footer */
