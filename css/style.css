@@ -16,7 +16,6 @@
 }
 body {
   font-family: "Roboto";
-  /* color: var(--textColor--); */
   list-style: none;
   text-decoration: none;
 }
@@ -29,9 +28,9 @@ body {
   padding: 0 15px;
 }
 
-/* .hero .features-part section {
-  padding: 94px 0 94px 0;
-} */
+section {
+  padding: 94px 0;
+}
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -39,16 +38,14 @@ body {
   justify-content: space-between;
 }
 
-section {
-  padding: 94px 0;
-}
-
 .logo-link {
   font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
   align-items: center;
-  margin-right: 92px;
+  margin-right: 93px;
   text-decoration: none;
+  color: var(--titleColor--);
 }
 
 .span {
@@ -59,16 +56,11 @@ section {
   color: var(--brendColor--);
 }
 
-.link {
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .nav-header {
@@ -76,18 +68,10 @@ section {
   justify-content: space-between;
 }
 
-.nav-header li {
-  margin: 0px 50px 0 50px;
-  text-decoration: none;
-  color: var(--titleColor--);
-}
 .contact-header a,
 .nav-header a {
   text-decoration: none;
 }
-/* .nav-header a {
-  color: var(--titleColor--);
-} */
 
 .contact-header a {
   color: var(--textColor--);
@@ -95,8 +79,9 @@ section {
 
 .navList {
   display: inline;
-  padding: 32px 0 29px 0;
-  margin: 0 50 0 50;
+  margin: 32px 50px 29px 0;
+  color: var(--titleColor--);
+  font-weight: 500;
 }
 
 .navList a:hover,
@@ -140,9 +125,8 @@ section {
   margin: 0 auto;
   background-color: var(--brendColor--);
   color: var(--white--);
-  border-radius: 4px;
+  border: none;
   padding: 10px 32px;
-  box-shadow: 4px 4px rgb(0 0 0 / 15%);
 }
 
 .stilyButtom:hover,
@@ -150,7 +134,6 @@ section {
 .portfolio-buttom button:focus {
   background-color: var(--brendColor--);
   color: var(--white--);
-  border-radius: 4px;
   cursor: pointer;
 }
 /* section2 */
@@ -240,10 +223,10 @@ ul {
 /* .our-team li:not(:last-child) {
   margin: 30px;
 } */
-.link {
+/* .link {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* .link a:hover {
   color: var(--titleColor--);
