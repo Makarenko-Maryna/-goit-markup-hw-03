@@ -55,7 +55,6 @@ section {
 .activPage:active {
   color: var(--brendColor--);
 }
-
 .nav {
   display: flex;
   align-items: center;
@@ -76,6 +75,13 @@ section {
 .contact-header a {
   color: var(--textColor--);
 }
+.nav-header a {
+  color: var(--titleColor--);
+}
+
+.navList a {
+  color: var(--titleColor--);
+}
 
 .navList {
   display: inline;
@@ -94,10 +100,13 @@ section {
   justify-content: space-between;
 }
 
-.contact {
+.contact-em,
+.contact-tel {
   display: flex;
   margin-right: 50px;
+  width: 175px;
 }
+
 /* header */
 
 .hero {
